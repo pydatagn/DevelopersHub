@@ -1,0 +1,3 @@
+# add all references that we don't want on github
+.idea/
+.DS_Store

@@ -1,0 +1,12 @@
+# Add language on which this project is based
+language: python
+# Add the version of that language
+python:
+  - "2.7"
+cache: pip
+# give that command through which all installation can be installed
+install:
+  - pip install -r requirements.txt
+#  for testing purpose
+script:
+  - python tests.py
